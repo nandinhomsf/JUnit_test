@@ -27,7 +27,13 @@ public class Produto {
 	
 	@Override
 	public boolean equals(Object p) {
-		return ((Produto) p).getNome().equals(this.getNome());
+		if (p == null) {
+			return false;
+		}
+		if (p instanceof Produto) {
+			return ((Produto) p).getNome().equals(this.getNome());
+		}
+		return false;
 	}
 	
 	

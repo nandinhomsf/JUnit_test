@@ -5,33 +5,33 @@ public class Calculadora {
 
 	
 	/**
-	 * Este método soma dois inteiros e retorna o resultado
+	 * Este mÃ©todo soma dois inteiros e retorna o resultado
 	 * 
 	 * @param a
 	 * 	 Primeiro valor a ser adicionado
 	 * @param b
 	 * 	Segundo valor a ser adicionado
-	 * @return O valor retornado é a soma dos dois números
+	 * @return O valor retornado Ã© a soma dos dois nxmeros
 	 */
 	public int soma (int a, int b) {
 		return a + b;
 	}
 	
 	/**
-	 * Este método subtrai dois inteiros e retorna o resultado
+	 * Este mxtodo subtrai dois inteiros e retorna o resultado
 	 * 
 	 * @param a
-	 * 	 Primeiro valor a ser subtraído
+	 * 	 Primeiro valor a ser subtraxdo
 	 * @param b
-	 * 	Segundo valor a ser subtraído
-	 * @return O valor retornado é a subtração dos dois números
+	 * 	Segundo valor a ser subtraxdo
+	 * @return O valor retornado x a subtraxxo dos dois nxmeros
 	 */	
 	public int subtracao(int a, int b) {
 		return a - b;
 	}
 	
 	/**
-	 * Este método multiplica dois inteiros e retorna o resultado
+	 * Este mxtodo multiplica dois inteiros e retorna o resultado
 	 * 
 	 * @param a
 	 * @param b
@@ -42,7 +42,7 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Este método divide dois inteiros e retorna o resultado
+	 * Este mxtodo divide dois inteiros e retorna o resultado
 	 * 
 	 * @param a
 	 * @param b
@@ -53,10 +53,10 @@ public class Calculadora {
 	}	
 
 	/**
-	 * Este método retorna o somatório 0 até n
+	 * Este mxtodo retorna o somatxrio 0 atx n
 	 * 
 	 * @param n	  		
-	 * @return O retorno será o somatório de 0 até n
+	 * @return O retorno serx o somatxrio de 0 atx n
 	 */
 	public int somatoria(int n) {
 		int somatorio = 0;
@@ -69,7 +69,7 @@ public class Calculadora {
 	
 	
 	/**
-	 * Este retorna se um inteiro n é positivo
+	 * Este retorna se um inteiro n x positivo
 	 * 
 	 * @param n	 
 	 * @return
@@ -79,7 +79,7 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Esse método compara dois número a e b
+	 * Esse mxtodo compara dois nxmero a e b
 	 * @param a
 	 * @param b
 	 * @return 0 se a==b, 1 se a>b, -1 se a < b

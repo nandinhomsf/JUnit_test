@@ -1,6 +1,7 @@
 package carrinho;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Iterator;
 
 import produto.Produto;
@@ -8,17 +9,16 @@ import produto.ProdutoNaoEncontradoException;
 
 public class Carrinho {
 	
-	private ArrayList items;
+	private final List<Produto> items;
 	
 	public Carrinho() {
-		items = new ArrayList();
+		items = new ArrayList<>();
 	}
 	
 	public double getValorTotal() {
 		double valorTotal = 0.0;
-		
-		for (Iterator i = items.iterator(); i.hasNext();) {
-			Produto item = (Produto) i.next();
+
+		for (Produto item : items) {
 			valorTotal += item.getPreco();
 		}
 		
